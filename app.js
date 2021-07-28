@@ -14,11 +14,11 @@ app.get('/about', function (req, res) {
   res.render('pages/about')
 })
 
-app.get('/collections', function (req, res) {
-  res.render('pages/collections')
+app.get('/collection', function (req, res) {
+  res.render('pages/collection')
 })
 
-app.get('/detail/:id', function (req, res) {
+app.get('/detail/:uid', function (req, res) {
   res.render('pages/detail')
 })
 
